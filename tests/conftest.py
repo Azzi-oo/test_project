@@ -1,6 +1,6 @@
 import pytest
 
 
-@pytest.fixture
+@pytest.fixture()
 def test_hello():
     print('Hello')

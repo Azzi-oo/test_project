@@ -23,3 +23,8 @@ class Response:
         else:
             assert self.response_status == status_code
         return self
+
+    def __str__(self) -> str:
+        return (
+            f'{self.response_status}'
+        )
